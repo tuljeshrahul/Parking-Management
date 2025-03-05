@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #fff; /* White background for card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+button {
+  padding: 0.5em 1em; /* Padding for buttons */
+  margin: 0.5em; /* Margin around buttons */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #727384; /* Primary button color */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #353641; /* Darker shade on hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Grey background for disabled buttons */
+  cursor: not-allowed; /* Not-allowed cursor */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+form {
+  margin-top: 1em; /* Space above the form */
+}
+
+input[type='text'] {
+  padding: 0.5em; /* Padding for input fields */
+  margin: 0.5em; /* Margin around input fields */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  width: calc(100% - 1.5em); /* Full width minus padding */
+}
+
+input[type='text']:focus {
+  border-color: #646cff; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
